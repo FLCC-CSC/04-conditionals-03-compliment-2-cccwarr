@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Caden Warren
+# DATE: 9/29/25
+# BRIEF DESCRIPTION: conditional compliment 
 
 
 
@@ -15,13 +15,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+comp = input("Would you like a compliment? ")
 
+if comp == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
 
-
-
-
-
-
+print("Thank you for playing.")
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
